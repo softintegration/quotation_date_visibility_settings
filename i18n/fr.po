@@ -1,0 +1,43 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* quotation_date_visibility_settings
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-09 19:53+0000\n"
+"PO-Revision-Date: 2022-08-09 19:53+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: quotation_date_visibility_settings
+#: model_terms:ir.ui.view,arch_db:quotation_date_visibility_settings.res_config_settings_view_form_inherited
+msgid ""
+"<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
+"specific.\" groups=\"base.group_multi_company\"/>"
+msgstr ""
+
+#. module: quotation_date_visibility_settings
+#: model:ir.model,name:quotation_date_visibility_settings.model_res_config_settings
+msgid "Config Settings"
+msgstr "Paramètres de config"
+
+#. module: quotation_date_visibility_settings
+#: model:res.groups,name:quotation_date_visibility_settings.group_quotation_date_visible
+msgid "See/Edit quotation date"
+msgstr "Visualiser/Modifier la date du devis"
+
+#. module: quotation_date_visibility_settings
+#: model_terms:ir.ui.view,arch_db:quotation_date_visibility_settings.res_config_settings_view_form_inherited
+msgid "Set the date of sale order as the quotation order date"
+msgstr "Affecter la date du devis à la date de la commande générée"
+
+#. module: quotation_date_visibility_settings
+#: model:ir.model.fields,field_description:quotation_date_visibility_settings.field_res_config_settings__module_confirm_date_as_quotation_date
+msgid "Use the Quotation date as the order date"
+msgstr "Récupérer la date de la commande à partir de la date du devis"
