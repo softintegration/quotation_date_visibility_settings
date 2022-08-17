@@ -2,13 +2,13 @@
 
 {
     'name': 'Quotation date visibility settings',
-    'version': '1.0.1',
+    'version': '1.0.1.1',
     'author':'Soft-integration',
     'category': 'Sales',
     'summary': 'Configure the visibility of quotation order date',
     'description': "",
     'depends': [
-        'sale',
+        'sale_management',
     ],
     'data': [
         'security/quotation_date_visibility_settings_security.xml',
