@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* quotation_date_visibility_settings
+# 	* sale_order_date_order_visibility
 #
 msgid ""
 msgstr ""
@@ -15,29 +15,29 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
-#. module: quotation_date_visibility_settings
-#: model_terms:ir.ui.view,arch_db:quotation_date_visibility_settings.res_config_settings_view_form_inherited
+#. module: sale_order_date_order_visibility
+#: model_terms:ir.ui.view,arch_db:sale_order_date_order_visibility.res_config_settings_view_form_inherited
 msgid ""
 "<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
 "specific.\" groups=\"base.group_multi_company\"/>"
 msgstr ""
 
-#. module: quotation_date_visibility_settings
-#: model:ir.model,name:quotation_date_visibility_settings.model_res_config_settings
+#. module: sale_order_date_order_visibility
+#: model:ir.model,name:sale_order_date_order_visibility.model_res_config_settings
 msgid "Config Settings"
 msgstr "Paramètres de config"
 
-#. module: quotation_date_visibility_settings
-#: model:res.groups,name:quotation_date_visibility_settings.group_quotation_date_visible
-msgid "See/Edit quotation date"
-msgstr "Visualiser/Modifier la date du devis"
+#. module: sale_order_date_order_visibility
+#: model:res.groups,name:sale_order_date_order_visibility.group_sale_order_date_order_visible
+msgid "See/Edit Sale/Quotation order date order"
+msgstr "Visualiser/Modifier la date du devis/date de la commande"
 
-#. module: quotation_date_visibility_settings
-#: model_terms:ir.ui.view,arch_db:quotation_date_visibility_settings.res_config_settings_view_form_inherited
+#. module: sale_order_date_order_visibility
+#: model_terms:ir.ui.view,arch_db:sale_order_date_order_visibility.res_config_settings_view_form_inherited
 msgid "Set the date of sale order as the quotation order date"
 msgstr "Affecter la date du devis à la date de la commande générée"
 
-#. module: quotation_date_visibility_settings
-#: model:ir.model.fields,field_description:quotation_date_visibility_settings.field_res_config_settings__module_confirm_date_as_quotation_date
-msgid "Use the Quotation date as the order date"
+#. module: sale_order_date_order_visibility
+#: model:ir.model.fields,field_description:sale_order_date_order_visibility.field_res_config_settings__module_sale_order_date_order_from_quotation_date
+msgid "Use the Quotation date as the date order"
 msgstr "Récupérer la date de la commande à partir de la date du devis"

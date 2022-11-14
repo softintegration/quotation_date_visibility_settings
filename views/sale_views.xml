@@ -8,10 +8,10 @@
             <field name="arch" type="xml">
                 <data>
                     <xpath expr="//group[@name='order_details']/div[@groups='base.group_no_one']" position="attributes">
-                        <attribute name="groups">quotation_date_visibility_settings.group_quotation_date_visible</attribute>
+                        <attribute name="groups">sale_order_date_order_visibility.group_sale_order_date_order_visible</attribute>
                     </xpath>
                     <xpath expr="//group[@name='order_details']/field[@name='date_order'][@groups='base.group_no_one']" position="attributes">
-                        <attribute name="groups">quotation_date_visibility_settings.group_quotation_date_visible</attribute>
+                        <attribute name="groups">sale_order_date_order_visibility.group_sale_order_date_order_visible</attribute>
                     </xpath>
                 </data>
             </field>

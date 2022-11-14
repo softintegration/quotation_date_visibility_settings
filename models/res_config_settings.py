@@ -7,4 +7,4 @@ from odoo import fields, models, api
 class ResConfigSettings(models.TransientModel):
     _inherit = 'res.config.settings'
 
-    module_confirm_date_as_quotation_date = fields.Boolean("Use the Quotation date as the order date")
+    module_sale_order_date_order_from_quotation_date = fields.Boolean("Use the Quotation date as the date order")

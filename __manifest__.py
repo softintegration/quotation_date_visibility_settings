@@ -1,17 +1,17 @@
 # -*- coding: utf-8 -*-
 
 {
-    'name': 'Quotation date visibility settings',
-    'version': '1.0.1.1',
+    'name': 'Quotation/Sale date order visibility',
+    'version': '1.0.1.2',
     'author':'Soft-integration',
     'category': 'Sales',
-    'summary': 'Configure the visibility of quotation order date',
+    'summary': 'Quotation/Sale date order visibility',
     'description': "",
     'depends': [
         'sale_management',
     ],
     'data': [
-        'security/quotation_date_visibility_settings_security.xml',
+        'security/sale_order_date_order_visibility_security.xml',
         'views/sale_views.xml',
         'views/res_config_settings_views.xml'
     ],

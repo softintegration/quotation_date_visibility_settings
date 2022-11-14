@@ -2,8 +2,8 @@
 <odoo>
     <data>
 
-        <record id="group_quotation_date_visible" model="res.groups">
-            <field name="name">See/Edit quotation date</field>
+        <record id="group_sale_order_date_order_visible" model="res.groups">
+            <field name="name">See/Edit Sale/Quotation order date order</field>
             <field name="category_id" ref="base.module_category_hidden"/>
         </record>
 
