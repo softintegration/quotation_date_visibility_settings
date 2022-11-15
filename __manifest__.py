@@ -2,7 +2,7 @@
 
 {
     'name': 'Quotation/Sale date order visibility',
-    'version': '1.0.1.2',
+    'version': '1.0.1.3',
     'author':'Soft-integration',
     'category': 'Sales',
     'summary': 'Quotation/Sale date order visibility',
